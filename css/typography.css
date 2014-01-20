@@ -2,11 +2,11 @@
 
 /* Colors:
 
-Aquamarine Torquise || RGB: 0, 194, 207 || Hex: #00C2CF (Brand Color, Hover-Over Color)
+Aquamarine Torquise || RGB: 0, 194, 207 || Hex: #00C2CF (Brand Color, Hover-Over Color, Depleted Links, Topics/Headings)
 
-Dark Grey Red || RGB: 178, 130, 130 || Hex: #B28282 (Live Links, Underline)
+Dark Grey Red || RGB: 178, 130, 130 || Hex: #B28282 (Live Links, Underline, Bullets)
 
-Greyed Torquise || RGB: 122, 208, 215 || Hex: #7AD0D7 (Depleted Links)
+Tertiary Greyed Torquise || RGB: 122, 208, 215 || Hex: #7AD0D7 (Depleted Links)
 */
 
 html {
@@ -26,10 +26,10 @@ h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, dl, table {
 	margin-bottom: 1.5rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .multiverse, .universe,
+.brand {
 	font-family: 'Libre Baskerville', serif;
-	color: #00C2CF;  /*#53C1CA*/
-	/*color: #53C1CA;*/
+	color: #00C2CF;
 }
 	
 .multiverse {
@@ -72,7 +72,7 @@ h6, .cell {
 	line-height: 1.2587;
 }
 
-small, .atom { 
+small, .atom, caption { 
 	font-size: .8rem;
 	line-height: 1.1800;
 }
@@ -88,4 +88,107 @@ small, .atom {
 
 .brand-color {
 	color: #00C2CF;
+}
+
+hr {
+	border: solid 1px rgba(236,236,236,.50);
+}
+
+::selection {
+	background-color: rgba(0,194,207,0.45);
+	color: white;
+}
+
+a,
+a:link {
+	color: #B28282;
+	text-decoration: none;
+	border-bottom: .1em dashed rgba(178,130,130,.75) ;
+	transition: all 100ms linear;
+}
+
+a:visited {
+	color: rgba(0,194,207,0.0);
+	border-bottom-color: rgba(0,194,207,1);
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #00C2CF;
+	border-bottom-color: #B28282;
+}
+
+mark {
+	background-color: rgba(0,194,207,0.25);
+}
+
+em {
+	font-style:italic;
+}
+
+strong {
+	font-weight: 400;
+}
+
+blockquote {
+	position: relative;
+}
+
+blockquote p:before {
+	content: "“";
+	color: rgba(0,194,207,0.5);
+	position: absolute;
+	left: -1em;
+}
+
+blockquote p:after {
+	content: "”";
+	color: rgba(0,194,207,0.5);
+	position: relative;
+	right: -1em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	position: relative;
+}
+
+ul li:before {
+	content: "∆";
+	color: rgba(0,194,207,0.5);
+	position: absolute;
+	left: -1em;
+}
+
+dt {
+	color: rgba(0,194,207,0.75);
+	font-weight: 400;
+}
+
+th {
+	color: rgba(0,194,207,0.5);
+	font-weight: 400;
+}
+
+td {
+	text-align: center;
+	font-weight: 100;
+}
+
+th, td {
+	width: 10rem;
+	height: 2rem;
+	padding: .5rem;
+}
+
+tr {
+	border-bottom: 1px dotted #ECECEC;
+}
+
+table {
+	border-collapse:collapse;
 }
