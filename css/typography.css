@@ -127,6 +127,10 @@ em {
 	font-style:italic;
 }
 
+sub, sup {
+	line-height: 1rem;
+}
+
 strong {
 	font-weight: 400;
 }
@@ -139,14 +143,18 @@ blockquote p:before {
 	content: "“";
 	color: rgba(0,194,207,0.5);
 	position: absolute;
-	left: -1em;
+	top: .5em;
+	left: -.5em;
+	font-size: 5rem;
 }
 
 blockquote p:after {
 	content: "”";
 	color: rgba(0,194,207,0.5);
 	position: relative;
-	right: -1em;
+	top: .5em;
+	right: -.5em;
+	font-size: 5rem;
 }
 
 ul {
@@ -161,7 +169,7 @@ ul li:before {
 	content: "∆";
 	color: rgba(0,194,207,0.5);
 	position: absolute;
-	left: -1em;
+	left: -2em;
 }
 
 dt {
