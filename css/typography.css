@@ -82,6 +82,10 @@ small, .atom, caption {
 	line-height: 1.4750;
 }
 
+.top-none {
+	margin: 0 0 auto 0;
+}
+
 .brand-type {
 	font-family: 'Libre Baskerville', serif;
 }
@@ -157,7 +161,13 @@ blockquote p:after {
 	font-size: 5rem;
 }
 
+.flex-img {
+	width: 100%;
+	display:block;
+}
+
 ul {
+	padding: 0;
 	list-style-type: none;
 }
 

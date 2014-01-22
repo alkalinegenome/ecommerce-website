@@ -1,17 +1,39 @@
 @charset "UTF-8";
 
+/* Colors:
+
+Aquamarine Torquise || RGB: 0, 194, 207 || Hex: #00C2CF (Brand Color, Hover-Over Color, Depleted Links, Topics/Headings)
+
+Dark Grey Red || RGB: 178, 130, 130 || Hex: #B28282 (Live Links, Underline, Bullets)
+
+Tertiary Greyed Torquise || RGB: 122, 208, 215 || Hex: #7AD0D7 (Depleted Links)
+*/
+
 .btn,
 .btn:link,
 .btn:visited {
 	display: inline-block;
 	padding: 0.75em 1em;
-	background-color: #793284;
-	background-image: linear-gradient(to bottom, #793284, #571062);
+	background-color: #00C2CF;
+	background-image: linear-gradient(to bottom,  #7AD0D7,#00C2CF); 
 	border-radius: 4px;
+	border-bottom: solid 1px #FFF;
+	border-right: solid 1px #FFF;
 	box-shadow: 1px 1px 3px rgba (0,0,0,0.5);
 	color:#fff;
 	font-weight: bold;
-	border: 0;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.15);	
+	transition: 350ms;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+	color: #00C2CF;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.15);	
+	background-color: #FFF;
+	background-image: linear-gradient(to bottom,  #FFF,#FFF); 
+	border-bottom: solid 1px #00C2CF;
 }
 
 .btn-alt,
