@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.bucket-small {
+	background-color: rgba(236,236,236,0.150);
+	margin-bottom: 1rem;
+	padding: 1em;
+	border-radius: 3px;
+	width: 30%; /* demonstration & sizing purposes only */
+}
+
+.bucket-small:hover,
+.bucket-small:focus,
+.bucket-small:active {
+	opacity: .85;
+	transition: 150ms;
+	background-color: rgba(236,236,236,0.1);
+}
