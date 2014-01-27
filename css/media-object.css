@@ -11,6 +11,7 @@
 
 .media-body {
 	overflow: hidden;
+	padding-left: 1rem;
 }
 
 .media-img-reversed {
