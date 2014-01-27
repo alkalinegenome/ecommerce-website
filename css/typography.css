@@ -211,6 +211,12 @@ table {
 	border-collapse:collapse;
 }
 
+legend {
+	font-size: 1.25rem;
+	line-height: 1.0069;
+	margin-bottom: .5rem;
+}
+
 input { 
 	color: rgba(122,208,215,1.00);
 	font-weight: 100;

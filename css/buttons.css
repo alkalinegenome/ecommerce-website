@@ -29,10 +29,10 @@ Tertiary Greyed Torquise || RGB: 122, 208, 215 || Hex: #7AD0D7 (Depleted Links)
 .btn:focus,
 .btn:active {
 	color: #00C2CF;
-	text-shadow: 1px 1px 0px rgba(0,0,0,.15);	
+	text-shadow: 1px 1px 0px rgba(0,0,0,.10);	
 	background-color: #FFF;
 	background-image: linear-gradient(to bottom,  #FFF,#FFF); 
-	border-bottom: solid 1px #00C2CF;
+	border: solid 1px #00C2CF;
 }
 
 .btn-alt,

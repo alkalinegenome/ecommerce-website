@@ -8,9 +8,20 @@ fieldset {
 	border: none;
 }
 
+button {
+	border: none;
+}
+
 input {
-	border: solid rgba(236,236,236,0.50) 1px;
+	border: solid rgba(236,236,236,0.90) 1px;
 	border-radius: 3px;
 	padding: .5rem;
 	width: 12rem;
+}
+
+input:focus,
+input:active {
+	border: 1px solid #00C2CF;
+	outline: none;
+	transition: 150ms;
 }
