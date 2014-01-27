@@ -210,3 +210,8 @@ tr {
 table {
 	border-collapse:collapse;
 }
+
+input { 
+	color: rgba(122,208,215,1.00);
+	font-weight: 100;
+}

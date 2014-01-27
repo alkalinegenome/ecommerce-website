@@ -1,1 +1,16 @@
 @charset "UTF-8";
+
+.search-inline {
+	display:inline-block;
+}
+
+fieldset {
+	border: none;
+}
+
+input {
+	border: solid rgba(236,236,236,0.50) 1px;
+	border-radius: 3px;
+	padding: .5rem;
+	width: 12rem;
+}
