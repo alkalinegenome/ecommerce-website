@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.test {
+	position:relative;
+	bottom: 1rem;
+}
+
+.bucket-large {
+	background-color: rgba(236,236,236,0.150);
+	margin-bottom: 1rem;
+	padding: 1em;
+	border-radius: 3px;
+}
+
+.bucket-large:hover,
+.bucket-large:focus,
+.bucket-large:active {
+	opacity: .85;
+	transition: 150ms;
+	background-color: rgba(236,236,236,0.1);
+}
