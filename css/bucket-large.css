@@ -6,10 +6,10 @@
 }
 
 .bucket-large {
-	background-color: rgba(236,236,236,0.150);
 	margin-bottom: 1rem;
 	padding: 1em;
 	border-radius: 3px;
+	border-bottom: solid 3px #00C2CF;
 }
 
 .bucket-large:hover,
