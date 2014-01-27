@@ -6,3 +6,22 @@
 	padding: 1em;
 	border-radius: 6px;
 }
+
+.color-bar {
+	/*to be decided*/
+}
+
+.color-item {
+	border: 2px solid rgba(255,255,255,.00);
+	border-radius: 14px;
+	opacity: .5;
+}
+
+.color-item:hover,
+.color-item:focus,
+.color-item:active {
+	border: 2px solid white;
+	border-radius: 14px;
+	opacity: 1;
+	transition: 250ms;
+}
