@@ -1,2 +1,7 @@
 @charset "UTF-8";
 
+.footer {
+	border-top: solid 3px #ECECEC;
+	padding: 0 1.5rem;
+	overflow:hidden;
+}
