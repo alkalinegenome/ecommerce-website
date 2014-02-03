@@ -20,9 +20,10 @@ header {
 
 .heading {
 	overflow:hidden;
-	vertical-align: middle;
 }
 
 .sub-heading {
 	background-color: #ECECEC;
+	padding: .5rem 0;
+	vertical-align: middle;
 }

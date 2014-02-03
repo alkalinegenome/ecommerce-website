@@ -1,1 +1,9 @@
 @charset "UTF-8";
+
+.product-img {
+	margin-top: 1rem;
+}
+
+.product-info {
+	padding-right: 1rem;
+}
