@@ -122,6 +122,14 @@ a:active {
 	color: #00C2CF;
 	border-bottom-color: #B28282;
 }
+/*
+.no-decor,
+.no-decor:link,
+.no-decor:hover,
+.no-decor:focus,
+.no-decor:active {
+	text-decoration: none;
+}*/
 
 mark {
 	background-color: rgba(0,194,207,0.25);

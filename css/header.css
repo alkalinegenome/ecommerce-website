@@ -1,8 +1,12 @@
 @charset "UTF-8";
 .logo {
-	width: 100%;
+	width: 30%;
 	text-decoration: none;
 	overflow: hidden;
+}
+
+header {
+	border-bottom: 3px solid #00C2CF;
 }
 
 .nav-item {
@@ -16,4 +20,9 @@
 
 .heading {
 	overflow:hidden;
+	vertical-align: middle;
+}
+
+.sub-heading {
+	background-color: #ECECEC;
 }
