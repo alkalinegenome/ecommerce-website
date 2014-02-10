@@ -229,3 +229,11 @@ input {
 	color: rgba(122,208,215,1.00);
 	font-weight: 100;
 }
+
+.no-show {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
