@@ -3,6 +3,11 @@
 	text-decoration: none;
 	overflow: hidden;
 }
+@media only screen and (min-width: 20em) {
+	.logo {
+		padding: 1rem 3rem;
+	}
+}
 
 header {
 	border-bottom: 3px solid #00C2CF;
@@ -20,9 +25,9 @@ header {
 .heading {
 	overflow:hidden;
 }
-
+/*
 .sub-heading {
 	background-color: #ECECEC;
 	padding: .5rem 0;
 	vertical-align: middle;
-}
+}*/

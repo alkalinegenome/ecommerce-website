@@ -18,7 +18,7 @@ html {
 
 body {
 	display:block;
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -231,9 +231,7 @@ input {
 }
 
 .no-show {
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
 }
