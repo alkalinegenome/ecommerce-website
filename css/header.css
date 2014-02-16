@@ -11,10 +11,13 @@
 
 header {
 	border-bottom: 3px solid #00C2CF;
+	position: relative;
 }
 
-.nav-item {
-	margin: 0 1rem;
+@media only screen and (min-width: 15em) {
+	.nav-item {
+		margin: 1rem;
+	}
 }
 
 .h-background {
@@ -25,9 +28,7 @@ header {
 .heading {
 	overflow:hidden;
 }
-/*
+
 .sub-heading {
 	background-color: #ECECEC;
-	padding: .5rem 0;
-	vertical-align: middle;
-}*/
+	}

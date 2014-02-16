@@ -13,14 +13,14 @@ fieldset {
 
 button {
 	border: none;
-	width: 20%;
+	width: 30%;
 }
 
 input {
 	border: solid rgba(236,236,236,0.90) 1px;
 	border-radius: 3px;
 	padding: .5rem;
-	width: 70%;
+	width: 60%;
 	overflow:hidden;
 }
 
