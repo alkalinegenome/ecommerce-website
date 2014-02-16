@@ -14,12 +14,6 @@ header {
 	position: relative;
 }
 
-@media only screen and (min-width: 15em) {
-	.nav-item {
-		margin: 1rem;
-	}
-}
-
 .h-background {
 	background-color: #FFF;
 	overflow: hidden;
@@ -31,4 +25,30 @@ header {
 
 .sub-heading {
 	background-color: #ECECEC;
+}
+
+.nav a, 
+.nav a:link,
+.nav a:visited{
+	padding: .75rem 0;	
+	display: block;
+	text-decoration: none;
+	text-align:center;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	transition: all 150ms linear;	
+	text-shadow: 1px 1px 0px rgba(256,256,256,.35);	
+}
+
+@media only screen and (min-width: 30em) {
+	.nav a, 
+	.nav a:link,
+	.nav a:visited{
+		padding:0;
+		margin: 1rem;
+		border-bottom: none;	
 	}
+}

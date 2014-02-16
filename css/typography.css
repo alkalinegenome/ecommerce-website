@@ -122,14 +122,6 @@ a:active {
 	color: #00C2CF;
 	border-bottom-color: #B28282;
 }
-/*
-.no-decor,
-.no-decor:link,
-.no-decor:hover,
-.no-decor:focus,
-.no-decor:active {
-	text-decoration: none;
-}*/
 
 mark {
 	background-color: rgba(0,194,207,0.25);
@@ -223,11 +215,6 @@ legend {
 	font-size: 1.25rem;
 	line-height: 1.0069;
 	margin-bottom: .5rem;
-}
-
-input { 
-	color: rgba(122,208,215,1.00);
-	font-weight: 100;
 }
 
 .no-show {
