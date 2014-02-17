@@ -123,6 +123,10 @@ a:active {
 	border-bottom-color: #B28282;
 }
 
+.copyright {
+	color: #7AD0D7;
+}
+
 mark {
 	background-color: rgba(0,194,207,0.25);
 }
