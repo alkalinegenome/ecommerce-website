@@ -22,12 +22,11 @@
 
 .unit-s-25 {
 	width: 25%;
-}
+}*/
 
 .unit-s-33 {
 	width: 33.3333%;
 } 
-*/
 
 .unit-s-1-8 {
 	width: 12.5%;
@@ -63,6 +62,10 @@
 
 
 @media only screen and (min-width: 30em) {
+	.unit-m-33 {
+		width: 33.3333%;
+	} 
+	
 	.unit-m-1-8 {
 		width: 12.5%;
 	}
@@ -97,6 +100,10 @@
 }
 
 @media only screen and (min-width: 50em) {
+	.unit-l-33 {
+		width: 33.3333%;
+	} 
+
 	.unit-l-1-8 {
 		width: 12.5%;
 	}

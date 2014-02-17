@@ -2,8 +2,6 @@
 /* CSS Document */
 
 .product {
-	background-color: rgba(236,236,236,0.50);
-	padding: 1em;
 	border-radius: 6px;
 }
 
@@ -24,4 +22,8 @@
 	border-radius: 6px;
 	opacity: 1;
 	transition: 250ms;
+}
+
+.buy {
+	text-align: center;
 }

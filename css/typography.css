@@ -227,3 +227,9 @@ legend {
 	overflow:hidden;
 	position:absolute;
 }
+
+.product-name a,
+.product-name a:link,
+.product-name a:visited {
+	border-bottom: none;
+}
