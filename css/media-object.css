@@ -23,4 +23,5 @@
 	overflow: hidden;
 	padding: 1rem;	
 	background-color: rgba(236,236,236,.15);
+	position:relative;
 }

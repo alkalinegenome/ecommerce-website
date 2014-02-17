@@ -244,10 +244,23 @@ legend {
 	text-align: right;
 }
 
+.old-price {
+	color: rgba(0,0,0,.25);
+	position:absolute;
+	bottom: 1rem;
+}
+
 .sale-price {
 	color: #B28282;
+	text-align: right;
 }
 
 .new {
 	color: #00C2CF;
+	position:absolute;
+	bottom: 1rem;
+}
+
+.stock-out {
+	color:red;
 }
