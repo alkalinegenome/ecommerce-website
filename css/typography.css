@@ -236,4 +236,18 @@ legend {
 .product-name a:link,
 .product-name a:visited {
 	border-bottom: none;
+	color: #7AD0D7;
+}
+
+.price {
+	color: rgba(0,0,0,.35);
+	text-align: right;
+}
+
+.sale-price {
+	color: #B28282;
+}
+
+.new {
+	color: #00C2CF;
 }

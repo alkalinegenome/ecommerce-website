@@ -2,6 +2,7 @@
 
 .media {
 	overflow:hidden;
+	border-right: 2px solid white;
 }
 
 .media-img {

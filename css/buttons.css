@@ -55,3 +55,23 @@ Tertiary Greyed Torquise || RGB: 122, 208, 215 || Hex: #7AD0D7 (Depleted Links)
 	border: 2px solid #ECECEC;
 	box-shadow: inset 0 100px 1px #00C2CF;
 }
+
+.buy a,
+.buy a:link,
+.buy a:visited {
+	display:block;
+	background-color: rgba(236,236,236,.15);
+	padding: .75rem 0;
+	border:none;
+	color: #7AD0D7;
+	text-align:center;
+	border-top: 1px solid rgba(0,0,0,.05);
+}
+
+.buy a:hover,
+.buy a:focus,
+.buy a:active {
+	background-color: white;
+	color: #00C2CF;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.05);	
+}
