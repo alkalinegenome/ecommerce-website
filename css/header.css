@@ -12,19 +12,14 @@
 header {
 	border-bottom: 3px solid #00C2CF;
 	position: relative;
-}
-
-.h-background {
-	background-color: #FFF;
 	overflow: hidden;
 }
 
-.heading {
+.nav-bar,
+.search {
 	overflow:hidden;
-}
-
-.sub-heading {
-	background-color: #ECECEC;
+	background-color: rgba(236,236,236,.15);
+	display: block;
 }
 
 .nav a, 
@@ -40,7 +35,7 @@ header {
 .nav a:focus,
 .nav a:active{
 	transition: all 150ms linear;	
-	text-shadow: 1px 1px 0px rgba(256,256,256,.35);	
+	text-shadow: 1px 1px 0px rgba(0,0,0,.25);	
 }
 
 @media only screen and (min-width: 30em) {
