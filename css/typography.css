@@ -86,6 +86,10 @@ small, .atom, caption {
 	margin: 0 0 auto 0;
 }
 
+.bottom-none {
+	margin-bottom: 0;
+}
+
 .brand-type {
 	font-family: 'Libre Baskerville', serif;
 }
