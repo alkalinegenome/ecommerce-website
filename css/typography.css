@@ -128,7 +128,7 @@ a:active {
 }
 
 .copyright {
-	color: #7AD0D7;
+	color: rgba(0,0,0,.50);
 }
 
 mark {
