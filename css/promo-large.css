@@ -5,11 +5,10 @@
 	bottom: 1rem;
 }
 
-.bucket-large {
-	margin-bottom: 1rem;
-	padding: 1em;
-	border-radius: 3px;
-	border-bottom: solid 3px #00C2CF;
+.promo-large {
+	display:block;
+	margin: 0 auto;
+	overflow:hidden;
 }
 
 .bucket-large:hover,

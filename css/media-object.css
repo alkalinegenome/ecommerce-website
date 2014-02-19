@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
 .media {
+	display:block;
 	overflow:hidden;
 	border-right: 2px solid white;
-	background-color: rgba(236,236,236,.15);
+	margin: 0 auto;
+/*	background-color: rgba(236,236,236,.15);*/
 }
 
 .media-img {

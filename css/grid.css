@@ -7,6 +7,10 @@
 	float:left;
 }
 
+.gutter {
+	overflow:hidden;
+}
+
 /*
 .unit-2-3 {
 	width: 66.6666%;
@@ -124,7 +128,7 @@
 		width: 62.5%;
 	}
 	
-	.unit-l-3-4 {
+	.unit-l-6-8 {
 		width: 75%;
 	}
 	
