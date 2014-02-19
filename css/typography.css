@@ -98,6 +98,18 @@ small, .atom, caption {
 	color: #00C2CF;
 }
 
+.secondary {
+	color:rgba(178,130,130,1.00);
+}
+
+.tertiary {
+	color:rgba(122,208,215,1.00);
+}
+
+.quaternary {
+	color: rgba(0,0,0,.50)
+}
+
 hr {
 	border: solid 1px rgba(236,236,236,.50);
 }
@@ -226,22 +238,28 @@ legend {
 }
 
 .no-show {
-	text-indent:-100%;
+	text-indent:-1000%;
 	white-space:nowrap;
 	overflow:hidden;
 	position:absolute;
 }
 
+.product-name,
 .product-name a,
 .product-name a:link,
 .product-name a:visited {
 	border-bottom: none;
 	color: #7AD0D7;
+	margin-top: 0;
 }
 
 .price {
-	color: rgba(0,0,0,.35);
+	color: rgba(0,0,0,.25);
 	text-align: right;
+}
+
+.price-color {
+	color: rgba(0,0,0,.35);
 }
 
 .old-price {

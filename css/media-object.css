@@ -3,6 +3,7 @@
 .media {
 	overflow:hidden;
 	border-right: 2px solid white;
+	background-color: rgba(236,236,236,.15);
 }
 
 .media-img {
@@ -22,6 +23,5 @@
 .media-body {
 	overflow: hidden;
 	padding: 1rem;	
-	background-color: rgba(236,236,236,.15);
 	position:relative;
 }
