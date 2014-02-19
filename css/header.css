@@ -29,13 +29,15 @@ header {
 	display: block;
 	text-decoration: none;
 	text-align:center;
+	border-bottom: .1em dashed rgba(178,130,130,.75) ;
 }
 
 .nav a:hover,
 .nav a:focus,
 .nav a:active{
 	transition: all 150ms linear;	
-	text-shadow: 1px 1px 0px rgba(0,0,0,.25);	
+	text-shadow: 1px 1px 0px rgba(0,0,0,.20);	
+	border-bottom-color: #B28282;
 }
 
 @media only screen and (min-width: 30em) {

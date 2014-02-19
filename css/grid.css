@@ -7,6 +7,10 @@
 	float:left;
 }
 
+.unit-r {
+	float:right;
+}
+
 .gutter {
 	overflow:hidden;
 }
@@ -44,7 +48,7 @@
 	width: 37.5%;
 }
 
-.unit-s-1-2 {
+.unit-s-4-8 {
 	width: 50%;
 }
 

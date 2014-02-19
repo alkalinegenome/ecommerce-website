@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
-.bucket-small {
-	background-color: rgba(236,236,236,0.150);
+.promo-small {
+	background-color: rgba(236,236,236,0.1);
 	margin-bottom: 1rem;
-	padding: 1em;
-	border-radius: 3px;
-	width: 30%; /* demonstration & sizing purposes only */
+	opacity: .75;
+	display:block;
+	margin: 0 auto;
+	width: 25%;
 }
 
-.bucket-small:hover,
-.bucket-small:focus,
-.bucket-small:active {
-	opacity: .85;
+.promo-small:hover,
+.promo-small:focus,
+.promo-small:active {
+	opacity: 1;
 	transition: 150ms;
-	background-color: rgba(236,236,236,0.1);
 }

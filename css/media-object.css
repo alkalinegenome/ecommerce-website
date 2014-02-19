@@ -3,8 +3,8 @@
 .media {
 	display:block;
 	overflow:hidden;
-	border-right: 2px solid white;
 	margin: 0 auto;
+	border-right: 2px solid white;
 /*	background-color: rgba(236,236,236,.15);*/
 }
 
@@ -20,6 +20,7 @@
 .media-img-stacked {
 	float:none;
 	margin: 0;
+	padding: 1rem 1rem 0;
 }
 
 .media-body {
