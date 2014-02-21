@@ -215,7 +215,7 @@ dt {
 
 th {
 /*	color: rgba(0,194,207,.35); */
-	font-weight: 400;
+	font-weight: 100;
 }
 
 td {
@@ -225,7 +225,7 @@ td {
 th, td {
 	text-align: left;
 	font-family: 'Libre Baskerville', serif;
-	color: rgba(0,0,0,.35);
+	color: rgba(0,0,0,.30);
 	width: 10rem;
 	height: 2rem;
 	padding: .5rem;
