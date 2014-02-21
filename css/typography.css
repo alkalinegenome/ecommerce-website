@@ -299,5 +299,6 @@ legend {
 
 .more {
 	text-align: center;
-	border-bottom: .1em dashed rgba(0,0,0,.35) ;
+	border-bottom: .1em dashed rgba(0,0,0,.35);
+	padding-bottom: .5rem;
 }
