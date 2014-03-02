@@ -161,6 +161,10 @@ strong {
 	font-weight: 400;
 }
 
+.center-text {
+	text-align: center;
+}
+
 blockquote {
 	position: relative;
 }
