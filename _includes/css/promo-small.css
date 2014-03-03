@@ -14,3 +14,7 @@
 	opacity: 1;
 	transition: 150ms;
 }
+
+.promo-group .unit:last-child .promo-small {
+	background-color:rgba(122,208,215,0.5);
+}
