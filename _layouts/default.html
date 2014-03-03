@@ -38,6 +38,11 @@
 			</form>	
 		</div>
 	</header> 
+	{% if page.showbanner %}
+	<div class="banner unit unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
+		<h2> {{page.bannertext}} </h2>
+	</div>
+	{% endif %}
 	
 	{{content}}
 
