@@ -49,3 +49,16 @@ header {
 		border-bottom: none;	
 	}
 }
+
+.current {
+	font-weight: 400;
+	cursor:default;
+	background-color: red;
+	
+}
+
+.current a:hover,
+.current a:focus,
+.current a:active{
+	color:#FFF;
+}
