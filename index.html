@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-showbanner: yes
+showbanner: no
 bannertext: oherro
 ---
 
@@ -11,63 +11,11 @@ bannertext: oherro
 		<img class="flex-img" src="http://placehold.it/600x200" alt="Promotion">
 		<h2>Hey There!</h2>
 		<p>At Fire &amp; Glass we sell beautiful pieces from the Earth. Whether it's for jewellery or for your collection, we're sure to have the right crystal for you.</p>
-	</div>	
+	</div>
 	
-	<div>	
-		<div class="unit unit-s-1 unit-m-4-8 unit-l-2-8 unit-xl-2-8 promo-small">
-			<a href="#">
-				<div class="media">
-					<div class="media-img-stacked">
-						<img class="flex-img" src="{{site.baseurl}}/images/50-off.svg" alt="50 percent off select purchases">
-					</div>
-					<div class="media-body">
-						<h2 class="top-none">Sale!</h2>
-						<p>Get 50% off select items for a limited time!</p>
-					</div>	
-				</div>
-			</a>
-		</div>
-		
-		<div class="unit unit-s-1 unit-m-4-8 unit-l-2-8 unit-xl-2-8 promo-small">
-			<a href="#">
-				<div class="media">
-					<div class="media-img-stacked">
-						<img class="flex-img" src="http://placehold.it/256x256" alt="">
-					</div>
-					<div class="media-body">
-						<h2 class="top-none cell">Upcoming Event: 57th Annual Rock &amp; Gem Show in Portland</h2>
-						<p>April 11-13 2014 at the Kliever Memorial Armory (10000 NE 33rd Drive) in Portland, Oregon.</p>
-					</div>	
-				</div>
-			</a>
-		</div>
-		
-		<div class="unit unit-s-1 unit-m-4-8 unit-l-2-8 unit-xl-2-8 promo-small">
-			<a href="#">
-				<div class="media">
-					<div class="media-img-stacked">
-						<img class="flex-img" src="http://placehold.it/256x256" alt="New Citrine Samples">
-					</div>
-					<div class="media-body">
-						<h2 class="top-none cell">New Arrival: Citrine</h2>
-						<p>New synthesized Citrine acquired from Mexico.</p>
-					</div>	
-				</div>
-			</a>
-		</div>
-
-		<div class="unit unit-s-1 unit-m-4-8 unit-l-2-8 unit-xl-2-8 promo-small">
-			<a href="#">
-				<div class="media">
-					<div class="media-img-stacked">
-						<img class="flex-img" src="http://placehold.it/256x256" alt="">
-					</div>
-					<div class="media-body">
-						<h2 class="top-none cell">Upcoming Event: 52nd Annual Jackson Mineral Show</h2>
-						<p>March 14-16 2014 at Jackson County Fairgrounds - American One Event Center (200 West Ganson) in Jackson, Michigan.</p>
-					</div>	
-				</div>
-			</a>
-		</div>
-
+	<div class="promo-group">
+			{% include promo-small.html promotitle="Fulgrite" promodesc="Zeus's Wrath" img="pteranodon.jpg" alt="Fulgrite" %}
+			{% include promo-small.html promotitle="Amethyst" promodesc="Dionysus's Power" img="archeopteryx.jpg" alt="Fulgrite" %}
+			{% include promo-small.html promotitle="Pyrite" promodesc="Fool's Gold" img="rhamphorhynchus.jpg" alt="Pyrite" %}
+			{% include promo-small.html promotitle="Citrine" promodesc="Sale! 50% off Citrine Specimens." img="50-off.svg" alt="Citrine" %}
 	</div>
