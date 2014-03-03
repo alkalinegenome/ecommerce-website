@@ -213,8 +213,12 @@ table {
 }
 
 dt {
-	color: rgba(0,194,207,0.75);
+	color: rgba(122,208,215,0.75);
 	font-weight: 400;
+}
+
+dd {
+	color: rgba(0,0,0,.5)
 }
 
 th {
@@ -318,5 +322,5 @@ legend {
 
 .thanks-bg {
 	background-color: #00C2CF;
-	padding: 5rem;
+	padding: 5rem 1rem;
 }
