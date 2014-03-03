@@ -306,3 +306,17 @@ legend {
 	border-bottom: .1em dashed rgba(0,0,0,.35);
 	padding-bottom: .5rem;
 }
+
+.thanks {
+	color: #FFF;
+	vertical-align: middle;
+}
+
+.thanks-statement {
+	padding: 2rem 0;
+}
+
+.thanks-bg {
+	background-color: #00C2CF;
+	padding: 5rem;
+}
