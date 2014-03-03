@@ -53,6 +53,6 @@ header {
 .current {
 	font-weight: 400;
 	cursor:default;
-	background-color: red;
+	background-color: rgba(122,208,215,.50);
 	
 }
