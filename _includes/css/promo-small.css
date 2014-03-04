@@ -6,6 +6,8 @@
 	opacity: .75;
 	display:block;
 	margin: 0 auto;
+	overflow:hidden;
+	vertical-align: top;
 }
 
 .promo-small:hover,
@@ -17,4 +19,5 @@
 
 .promo-group .unit:last-child .promo-small {
 	background-color:rgba(122,208,215,0.5);
+	overflow:hidden;
 }
