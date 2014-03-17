@@ -1,5 +1,5 @@
 ---
-layout: product
+layout: products
 id: product
 name: Ammonite
 image: 50-off.svg

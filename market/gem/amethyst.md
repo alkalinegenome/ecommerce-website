@@ -4,8 +4,8 @@ id: product
 name: Amethyst
 image: ameythst-v1-2.jpg
 category: gem
-species: quartz
-variety: amethyst
+species: Quartz
+variety: Amethyst
 type: tumbled
 desc: Dionysus's Power
 price: 5.99
