@@ -17,3 +17,5 @@ inclusions: None
 base: None
 about: Agate is cool.
 ---
+
+Agate was first discovered sometime around the 3rd or 4th century (BC) by Theophrastus, a Greek Philosopher who named the stone after the river in which it was found, ‘Achates’ (Greek: Aχάτης). The Achates River is located in Sicily, Italy, but the river has been renamed and is now known as the Dirillo River since then.
