@@ -1,5 +1,5 @@
 ---
-layout: product
+layout: products
 id: product
 title: Citrine (Synthetic)
 image: citrine-geode-v1-1.jpg

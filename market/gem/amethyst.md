@@ -1,5 +1,5 @@
 ---
-layout: product
+layout: products
 id: product
 title: Amethyst
 image: ameythst-v1-2.jpg

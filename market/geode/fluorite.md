@@ -1,5 +1,5 @@
 ---
-layout: product
+layout: products
 id: product
 title: Fluorite
 image: 50-off.svg
@@ -18,3 +18,5 @@ base: None
 about: Raare
 tag: 
 ---
+
+Fluorite is a halide mineral composed of calcium fluoride, CaF2. It is an isometric mineral with a cubic habit, though octahedral and more complex isometric forms are not uncommon.

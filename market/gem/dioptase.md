@@ -1,5 +1,5 @@
 ---
-layout: product
+layout: products
 id: product
 title: Dioptase
 image: 50-off.svg

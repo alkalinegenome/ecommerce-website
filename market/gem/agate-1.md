@@ -1,5 +1,5 @@
 ---
-layout: product
+layout: products
 id: product
 title: Agate
 image: agate-gem-v2.jpg

@@ -1,5 +1,5 @@
 ---
-layout: product
+layout: products
 id: product
 title: Agate (Slice)
 image: agate-slice-v1.jpg

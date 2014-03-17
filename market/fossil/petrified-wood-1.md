@@ -1,5 +1,5 @@
 ---
-layout: product
+layout: products
 id: product
 title: Petrified Wood
 image: 50-off.svg
