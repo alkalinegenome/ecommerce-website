@@ -1,7 +1,7 @@
 ---
 layout: products
 id: product
-title: Fluorite
+name: Fluorite
 image: 50-off.svg
 category: geode
 species: quartz

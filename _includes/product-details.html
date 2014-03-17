@@ -1,50 +1,3 @@
----
----
-
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Product-Details</title>
-<link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
-</head>
-
-<body>
-	
-	
-<!-- ======================= Header ======================= -->
-<!--	<header class="heading">
-		<div class="unit unit-s-1 unit-m-4-8 unit-l-3-8 unit-xl-2-8">
-			<div class="logo">
-				<a href="#home"><img class="flex-img" src="../images/logo.svg" alt="Fire and Glass Logo"></a>
-	 			<h1 class="no-show">Fire &amp; Glass</h1>
-			</div>
-		</div>
-		
-		<div class="nav-bar unit unit-s-1 unit-m-5-8 unit-l-3-8 unit-xl-4-8">
-			<nav class="nav cell">
-				<ul class="list-group">
-					<li class="list-group-item list-group-item-inline no-decor"><a class="" href="index.html">Home</a></li>
-					<li class="list-group-item list-group-item-inline no-decor"><a class="" href="index.html">Gem Market</a></li>
-					<li class="list-group-item list-group-item-inline no-decor"><a class="" href="index.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-		
-		<div class="search unit unit-s-1 unit-m-3-8 unit-l-2-8 unit-xl-2-8">
-			<form>
-				<fieldset>
-					<div class="search-inline">
-						<input type="search" placeholder="Lookin' for something?">
-						<button type="submit" class="btn">Find it</button>
-					</div>
-				</fieldset>
-			</form>	
-		</div>
-	</header> -->
-
-<!-- ======================= Body ======================= -->
-
 	<div class="promo-large unit-s-1">
 		<div class="media unit-s-1 unit-m-1 unit-l-6-8 unit-xl-6-8">
 		
@@ -53,9 +6,9 @@
 			</div>
 			
 			<div class="media-body product-info"> <!--  unit unit-s-1 unit-m-3-8 unit-l-4-8 unit-xl-4-8 -->
-				<h2 class="planet product-name">{{products.title}}</h2>
-				<h3 class="atom quaternary">{{products.category}} {{products.species}}</h3>
-				<p class="starsystem brand-type price-color top-none">{{products.price}}</p>
+				<h2 class="planet product-name">{{page.name}}</h2>
+				<h3 class="atom quaternary">{{page.category}} / {{page.species}}</h3>
+				<p class="starsystem brand-type price-color top-none">${{page.price}}</p>
 
 				<div class="buy unit-s-1 unit-m-1 unit-l-1 unit-xl-6-8">
 					<a class="cell" href="#">Add to Cart</a>
@@ -70,29 +23,29 @@
 					<tbody>
 						<tr>
 							<th>Weight</th>
-							<td>{{products.weight}}</td>
+							<td>{{page.weight}}</td>
 						</tr>
 						<tr>
 							<th>Dimensions</th>
-							<td>{{products.dimensions}}</td>
+							<td>{{page.dimensions}}</td>
 						</tr>
 						<tr>
 							<th>Color</th>
-							<td>{{products.colordesc}}</td>
+							<td>{{page.colordesc}}</td>
 						</tr>
 						<tr>
 							<th>Inclusions</th>
-							<td>{{products.inclusions}}</td>
+							<td>{{page.inclusions}}</td>
 						</tr>
 						<tr>
 							<th>Base</th>
-							<td>{{products.base}}</td>
+							<td>{{page.base}}</td>
 						</tr>
 					</tbody>
 				</table>	
 
-				<h4 class="organism quaternary">About {{products.title}}</h4>
-				<p class="bottom-none">{{products.about}}</p>				
+				<h4 class="organism quaternary">About {{page.title}}</h4>
+				<p class="bottom-none">{{content}}</p>				
 			</div>	
 		</div>	
 	</div>

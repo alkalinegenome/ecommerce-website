@@ -1,7 +1,7 @@
 ---
 layout: products
 id: product
-title: Citrine (Synthetic)
+name: Citrine (Synthetic)
 image: citrine-geode-v1-1.jpg
 category: geode
 species: quartz

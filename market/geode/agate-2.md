@@ -1,7 +1,7 @@
 ---
 layout: products
 id: product
-title: Agate (Slice)
+name: Agate (Slice)
 image: agate-slice-v1.jpg
 category: geode
 species: quartz

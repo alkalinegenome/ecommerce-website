@@ -1,7 +1,7 @@
 ---
 layout: products
 id: product
-title: Pyrite
+name: Pyrite
 image: 50-off.svg
 category: geode
 species: mineral

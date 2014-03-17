@@ -1,7 +1,7 @@
 ---
 layout: products
 id: product
-title: Amethyst
+name: Amethyst
 image: ameythst-v1-2.jpg
 category: gem
 species: quartz

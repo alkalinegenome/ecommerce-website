@@ -1,7 +1,7 @@
 ---
 layout: products
 id: product
-title: Dioptase
+name: Dioptase
 image: 50-off.svg
 category: gem
 species: mineral

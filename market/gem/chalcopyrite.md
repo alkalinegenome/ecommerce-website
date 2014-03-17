@@ -1,7 +1,7 @@
 ---
 layout: products
 id: product
-title: Chalcopyrite
+name: Chalcopyrite
 image: 50-off.svg
 category: gem
 species: mineral

@@ -1,6 +1,17 @@
 ---
-layout: default
 ---
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Product-Details</title>
+<link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	
 <!-- ======================= Header ======================= -->
 <!--	<header class="heading">
 		<div class="unit unit-s-1 unit-m-4-8 unit-l-3-8 unit-xl-2-8">
@@ -42,9 +53,9 @@ layout: default
 			</div>
 			
 			<div class="media-body product-info"> <!--  unit unit-s-1 unit-m-3-8 unit-l-4-8 unit-xl-4-8 -->
-				<h2 class="planet product-name">{{market.title}}</h2>
-				<h3 class="atom quaternary">{{market.category}} {{market.species}}</h3>
-				<p class="starsystem brand-type price-color top-none">${{market.price}}</p>
+				<h2 class="planet product-name">{{products.title}}</h2>
+				<h3 class="atom quaternary">{{products.category}} {{products.species}}</h3>
+				<p class="starsystem brand-type price-color top-none">{{products.price}}</p>
 
 				<div class="buy unit-s-1 unit-m-1 unit-l-1 unit-xl-6-8">
 					<a class="cell" href="#">Add to Cart</a>
@@ -59,29 +70,29 @@ layout: default
 					<tbody>
 						<tr>
 							<th>Weight</th>
-							<td>{{market.weight}}</td>
+							<td>{{products.weight}}</td>
 						</tr>
 						<tr>
 							<th>Dimensions</th>
-							<td>{{market.dimensions}}</td>
+							<td>{{products.dimensions}}</td>
 						</tr>
 						<tr>
 							<th>Color</th>
-							<td>{{market.colordesc}}</td>
+							<td>{{products.colordesc}}</td>
 						</tr>
 						<tr>
 							<th>Inclusions</th>
-							<td>{{market.inclusions}}</td>
+							<td>{{products.inclusions}}</td>
 						</tr>
 						<tr>
 							<th>Base</th>
-							<td>{{market.base}}</td>
+							<td>{{products.base}}</td>
 						</tr>
 					</tbody>
 				</table>	
 
-				<h4 class="organism quaternary">About {{market.title}}</h4>
-				<p class="bottom-none">{{market.about}}</p>				
+				<h4 class="organism quaternary">About {{products.title}}</h4>
+				<p class="bottom-none">{{products.about}}</p>				
 			</div>	
 		</div>	
 	</div>

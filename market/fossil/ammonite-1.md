@@ -1,7 +1,7 @@
 ---
 layout: product
 id: product
-title: Ammonite
+name: Ammonite
 image: 50-off.svg
 category: fossil
 species: fossil

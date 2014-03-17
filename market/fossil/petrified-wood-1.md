@@ -1,7 +1,7 @@
 ---
 layout: products
 id: product
-title: Petrified Wood
+name: Petrified Wood
 image: 50-off.svg
 category: fossil
 species: quartz

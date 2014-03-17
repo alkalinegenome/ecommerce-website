@@ -1,7 +1,7 @@
 ---
 layout: products
 id: product
-title: Agate
+name: Agate
 image: agate-gem-v2.jpg
 category: gem
 species: quartz
