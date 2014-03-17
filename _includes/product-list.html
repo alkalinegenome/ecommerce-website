@@ -1,0 +1,11 @@
+	<div class="grid">
+		<ul>
+			{% for market in site.pages %}
+				{% if market.category == include.category %}
+					<li>
+						{% include product-list-item.html %}
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>		
+	</div>
