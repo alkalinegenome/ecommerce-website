@@ -8,7 +8,7 @@ species: quartz
 variety: quartz
 type: chunk
 desc: Crystal Beauty
-price: 8.99
+price: 76.99
 weight: 521g
 dimensions: 80mm × 91mm × 104mm
 color: Brown
