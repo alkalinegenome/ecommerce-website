@@ -1,0 +1,195 @@
+---
+---
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Product-Details</title>
+<link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	
+<!-- ======================= Header ======================= -->
+<!--	<header class="heading">
+		<div class="unit unit-s-1 unit-m-4-8 unit-l-3-8 unit-xl-2-8">
+			<div class="logo">
+				<a href="#home"><img class="flex-img" src="../images/logo.svg" alt="Fire and Glass Logo"></a>
+	 			<h1 class="no-show">Fire &amp; Glass</h1>
+			</div>
+		</div>
+		
+		<div class="nav-bar unit unit-s-1 unit-m-5-8 unit-l-3-8 unit-xl-4-8">
+			<nav class="nav cell">
+				<ul class="list-group">
+					<li class="list-group-item list-group-item-inline no-decor"><a class="" href="index.html">Home</a></li>
+					<li class="list-group-item list-group-item-inline no-decor"><a class="" href="index.html">Gem Market</a></li>
+					<li class="list-group-item list-group-item-inline no-decor"><a class="" href="index.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div class="search unit unit-s-1 unit-m-3-8 unit-l-2-8 unit-xl-2-8">
+			<form>
+				<fieldset>
+					<div class="search-inline">
+						<input type="search" placeholder="Lookin' for something?">
+						<button type="submit" class="btn">Find it</button>
+					</div>
+				</fieldset>
+			</form>	
+		</div>
+	</header> -->
+
+<!-- ======================= Body ======================= -->
+
+	<div class="promo-large unit-s-1">
+		<div class="media unit-s-1 unit-m-1 unit-l-6-8 unit-xl-6-8">
+		
+			<div class="media-img unit-s-1 unit-m-4-8 unit-l-4-8"> <!-- unit unit-s-1 unit-m-4-8 unit-l-3-8 unit-xl-3-8 -->
+				<img class="flex-img product-img" src="http://placehold.it/600x400" alt="">	
+			</div>
+			
+			<div class="media-body product-info"> <!--  unit unit-s-1 unit-m-3-8 unit-l-4-8 unit-xl-4-8 -->
+				<h2 class="planet product-name">{{products.title}}</h2>
+				<h3 class="atom quaternary">{{products.category}} {{products.species}}</h3>
+				<p class="starsystem brand-type price-color top-none">{{products.price}}</p>
+
+				<div class="buy unit-s-1 unit-m-1 unit-l-1 unit-xl-6-8">
+					<a class="cell" href="#">Add to Cart</a>
+				</div>				
+				
+				<table>
+					<thead>
+					  <tr>
+						<h3 class="organism quaternary">Specimen Details</h3>
+					  </tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>Weight</th>
+							<td>{{products.weight}}</td>
+						</tr>
+						<tr>
+							<th>Dimensions</th>
+							<td>{{products.dimensions}}</td>
+						</tr>
+						<tr>
+							<th>Color</th>
+							<td>{{products.colordesc}}</td>
+						</tr>
+						<tr>
+							<th>Inclusions</th>
+							<td>{{products.inclusions}}</td>
+						</tr>
+						<tr>
+							<th>Base</th>
+							<td>{{products.base}}</td>
+						</tr>
+					</tbody>
+				</table>	
+
+				<h4 class="organism quaternary">About {{products.title}}</h4>
+				<p class="bottom-none">{{products.about}}</p>				
+			</div>	
+		</div>	
+	</div>
+
+	<div class="unit-r unit-s-1 unit-m-1 unit-l-4-8 unit-xl-4-8">
+		<h2 class="cell tertiary more bottom-none unit unit-s-1 unit-m-1 unit-l-1 unit-xl-1">You might also like…</h2>
+		<a class="promo-small unit unit-s-4-8 unit-m-2-8 unit-l-2-8 unit-xl-2-8" href="#">
+			<div class="media">
+				<div class="media-img-stacked">
+					<img class="flex-img" src="http://placehold.it/256x256" alt="Wulfenite">
+				</div>
+				<div class="media-body">
+					<h2 class="top-none atom product-name">Wulfenite</h2>
+					<p class="promo-price price-color atom">$12.99</p>
+				</div>	
+			</div>
+		</a>
+		<a class="promo-small unit unit-s-4-8 unit-m-2-8 unit-l-2-8 unit-xl-2-8" href="#">
+			<div class="media">
+				<div class="media-img-stacked">
+					<img class="flex-img" src="http://placehold.it/256x256" alt="Pyrite">
+				</div>
+				<div class="media-body">
+					<h2 class="top-none atom product-name">Flourite</h2>
+					<p class="promo-price price-color atom">$23.99</p>
+				</div>	
+			</div>
+		</a>
+		<a class="promo-small unit unit-s-4-8 unit-m-2-8 unit-l-2-8 unit-xl-2-8" href="#">
+			<div class="media">
+				<div class="media-img-stacked">
+					<img class="flex-img" src="http://placehold.it/256x256" alt="Citrine">
+				</div>
+				<div class="media-body">
+					<h2 class="top-none atom product-name">Citrine</h2>
+					<p class="promo-price price-color atom">$5.99</p>
+				</div>	
+			</div>
+		</a>
+		<a class="promo-small unit unit-s-4-8 unit-m-2-8 unit-l-2-8 unit-xl-2-8" href="#">
+			<div class="media">
+				<div class="media-img-stacked">
+					<img class="flex-img" src="http://placehold.it/256x256" alt="Fulgrite">
+				</div>
+				<div class="media-body">
+					<h2 class="top-none atom product-name">Fulgrite</h2>
+					<p class="promo-price price-color atom">$8.99</p>
+				</div>	
+			</div>
+		</a>
+	</div>
+
+
+<!-- ======================= Footer ======================= -->
+<!--		
+	<footer class="footer cell unit-l-1 unit-xl-1">
+	
+		<div class="unit unit-s-1 unit-m-4-8 unit-l-2-8 unit-xl-2-8">
+			<ul>
+				<li class="foot-item list-group-item"><a class="" href="index.html">Home</a></li>
+				<li class="foot-item list-group-item"><a class="" href="index.html">Gem Market</a></li>
+				<li class="foot-item list-group-item"><a class="" href="index.html">Contact</a></li>
+			</ul>
+		</div>
+			
+		<div class="unit unit-s-1 unit-m-4-8 unit-l-2-8 unit-xl-2-8">
+			<ul>
+				<li class="foot-item list-group-item"><a class="" href="index.html">Fire &amp; Glass News</a></li>
+				<li class="foot-item list-group-item"><a class="" href="index.html">About Us</a></li>
+				<li class="foot-item list-group-item"><a class="" href="index.html">E-Mail Sign Up</a></li>
+			</ul>
+		</div>
+		
+		<div class="unit unit-s-1 unit-m-4-8 unit-l-2-8 unit-xl-2-8">
+			<ul>
+				<li class="foot-item list-group-item"><a class="" href="index.html">Facebook</a></li>
+				<li class="foot-item list-group-item"><a class="" href="index.html">Instagram</a></li>
+				<li class="foot-item list-group-item"><a class="" href="index.html">Twitter</a></li>
+			</ul>
+		</div>
+
+		<div class="unit unit-s-1 unit-m-4-8 unit-l-2-8 unit-xl-2-8">
+			<form>
+				<fieldset>
+					<div class="search-inline">
+						<input type="search" placeholder="Lookin' for something?">
+						<button type="submit" class="btn">Find it</button>
+					</div>
+				</fieldset>
+			</form>	
+		</div>
+	
+		<div class="unit unit-s-1 string copyright"> 
+			<p>© 2014 Fire &amp; Glass. All Rights Reserved. Dammit Marie, they're not rocks, they're minerals!</p>
+		</div>
+	
+	</footer>
+-->
+</body>
+</html>
