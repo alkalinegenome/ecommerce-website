@@ -1,19 +1,8 @@
 ---
+layout: default
 ---
-
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Product-Details</title>
-<link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
-</head>
-
-<body>
-	
-	
 <!-- ======================= Header ======================= -->
-	<header class="heading">
+<!--	<header class="heading">
 		<div class="unit unit-s-1 unit-m-4-8 unit-l-3-8 unit-xl-2-8">
 			<div class="logo">
 				<a href="#home"><img class="flex-img" src="../images/logo.svg" alt="Fire and Glass Logo"></a>
@@ -35,14 +24,13 @@
 			<form>
 				<fieldset>
 					<div class="search-inline">
-<!--						<legend class="cell">Looking for Something?</legend> -->
 						<input type="search" placeholder="Lookin' for something?">
 						<button type="submit" class="btn">Find it</button>
 					</div>
 				</fieldset>
 			</form>	
 		</div>
-	</header>
+	</header> -->
 
 <!-- ======================= Body ======================= -->
 
@@ -54,9 +42,9 @@
 			</div>
 			
 			<div class="media-body product-info"> <!--  unit unit-s-1 unit-m-3-8 unit-l-4-8 unit-xl-4-8 -->
-				<h2 class="planet product-name">Amethyst Gem</h2>
-				<h3 class="atom quaternary">Quartz, Gem Specimen</h3>
-				<p class="starsystem brand-type price-color top-none">$82.99</p>
+				<h2 class="planet product-name">{{market.title}}</h2>
+				<h3 class="atom quaternary">{{market.category}} {{market.species}}</h3>
+				<p class="starsystem brand-type price-color top-none">${{market.price}}</p>
 
 				<div class="buy unit-s-1 unit-m-1 unit-l-1 unit-xl-6-8">
 					<a class="cell" href="#">Add to Cart</a>
@@ -71,29 +59,29 @@
 					<tbody>
 						<tr>
 							<th>Weight</th>
-							<td>15g</td>
+							<td>{{market.weight}}</td>
 						</tr>
 						<tr>
 							<th>Dimensions</th>
-							<td>8mm &#215; 15mm &#215; 11mm</td>
+							<td>{{market.dimensions}}</td>
 						</tr>
 						<tr>
 							<th>Color</th>
-							<td>Dark Purple to Light Grey</td>
+							<td>{{market.colordesc}}</td>
 						</tr>
 						<tr>
 							<th>Inclusions</th>
-							<td>Hematite</td>
+							<td>{{market.inclusions}}</td>
 						</tr>
 						<tr>
 							<th>Base</th>
-							<td>None</td>
+							<td>{{market.base}}</td>
 						</tr>
 					</tbody>
 				</table>	
 
-				<h4 class="organism quaternary">About Amethyst</h4>
-				<p class="bottom-none">Amethyst is the most precious and valuable stone belonging to the quartz group of minerals, with exception to rare blue-green gem silica. It is recognized as the official birthstone for the month of July. Amethyst belongs to the macrocrystalline branch of quartz and owes its violet-purple color to iron and aluminum impurities.</p>				
+				<h4 class="organism quaternary">About {{market.title}}</h4>
+				<p class="bottom-none">{{market.about}}</p>				
 			</div>	
 		</div>	
 	</div>
@@ -148,7 +136,7 @@
 
 
 <!-- ======================= Footer ======================= -->
-		
+<!--		
 	<footer class="footer cell unit-l-1 unit-xl-1">
 	
 		<div class="unit unit-s-1 unit-m-4-8 unit-l-2-8 unit-xl-2-8">
@@ -191,6 +179,6 @@
 		</div>
 	
 	</footer>
-
+-->
 </body>
 </html>

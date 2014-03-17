@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<h1>All Specimens</h1>
+
+<h2>Geodes</h2>
+	<div class="grid">
+		<ul>
+			{% for market in site.pages %}
+				{% if market.category == 'geode' %}
+					<li>
+						{% include product-list-item.html %}
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>		
+	</div>
+<h2>Gems</h2>
+	<div class="grid">
+		<ul>
+			{% for market in site.pages %}
+				{% if market.category == 'gem' %}
+					<li>
+						{% include product-list-item.html %}
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>		
+	</div>
+<h2>Fossils</h2>
+	<div class="grid">
+		<ul>
+			{% for market in site.pages %}
+				{% if market.category == 'fossil' %}
+					<li>
+						{% include product-list-item.html %}
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>		
+	</div>
+
