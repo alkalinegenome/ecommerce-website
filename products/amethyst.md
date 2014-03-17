@@ -1,11 +1,14 @@
 ---
 layout: product
 title: Amethyst
+id: product
 category: geode
 species: quartz
 variety: amethyst
 type: slice
 color: purple
+desc: Dionysus's Power
+price: 5.99
 ---
 
 Amethyst is the most precious and valuable stone belonging to the quartz group of minerals, with exception to rare blue-green gem silica. It is recognized as the official birthstone for the month of February.

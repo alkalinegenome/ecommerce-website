@@ -1,13 +1,16 @@
 ---
 layout: product
-title: Citrine
+title: Citrine (Natural)
+id: product
 category: geode
 species: quartz
 variety: citrine
 type: slice
 color: orange
+desc: Beautiful, natural, acquired from Brazil.
+price: 38.99
 ---
 
-Amethyst is the most precious and valuable stone belonging to the quartz group of minerals, with exception to rare blue-green gem silica. It is recognized as the official birthstone for the month of February.
+Citrine is one of the most popular gemstones available today. Natural Citrine is actually quite rare and because it is more valuable than most other varieties of quartz, much of the citrine today is actually heat-treated to obtain their attractive golden color.
 
-The legend of the origin of amethyst comes to us from Greek myth. Dionysius, the god of intoxication, was angered one day by an insult from a human and swore revenge on the next mortal that crossed his path. Violent tigers should carry out his wish. Amethyst, a beautiful young maiden on her way to pay tribute to the goddess Diana was to become the victim. Diana turned Amethyst into a stature of pure crystalline quartz to protect her from the brutal claws. Dionysus wept tears of wine in remorse for his action at the sight of the beautiful statue. The god's tears stained the quartz purple, creating the famous gem.
+Citrine's color is thought to radiate positive energy. It is known as the 'success stone', promoting prosperity and abundance, especially in situations involving business. Citrine has actually earned the nickname of 'the merchant's stone', owed to the fact that many businesses will keep citrine in their cash registers for good fortune.
