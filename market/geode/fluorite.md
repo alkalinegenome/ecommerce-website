@@ -16,7 +16,7 @@ colordesc: Translucent Light Green
 inclusions: None
 base: None
 about: Raare
-tag: 
+tag: Sale!
 ---
 
 Fluorite is a halide mineral composed of calcium fluoride, CaF2. It is an isometric mineral with a cubic habit, though octahedral and more complex isometric forms are not uncommon.

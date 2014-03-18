@@ -9,12 +9,12 @@
 			<div class="media-body">
 				<h2 class="cell product-name"><a href="{{site.baseurl}}{{market.url}}">{{market.name}}</a></h2>
 				<p class="atom bottom-none">{{market.desc}}</p>
-				<p class="price brand-type planet bottom-none">${{market.price}}</p>
+				<p class="{% if market.tag == 'Sale!' %} sale-price {% else %} price {% endif %} brand-type planet bottom-none">${{market.price}}</p>
 				<p class="new bottom-none brand-type">{{market.tag}}</p>
 			</div>
 			
 			<div class="buy">
-				<a class="cell" href="#">Add to Cart</a>
+				<a class="cell {% if market.stock == 'empty' %} stock-out {% endif %}" href="{% if market.stock == 'empty' %}{% else %} market.html {% endif %}">{% if market.stock == 'empty' %} Out of Stock {% else %} Add to Cart {% endif %}</a>
 			</div>
 		</div>
 	</div>
