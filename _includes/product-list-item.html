@@ -14,7 +14,6 @@
 			</div>
 			
 			<div class="buy">
-			<a href="cart.html">LaM</a>
 				<a class="cell {% if market.stock == 'empty' %} stock-out {% endif %}" href="{% if market.stock == 'empty' %}{% else %} cart.html {% endif %}">{% if market.stock == 'empty' %} Out of Stock {% else %} Add to Cart {% endif %}</a>
 			</div>
 		</div>
