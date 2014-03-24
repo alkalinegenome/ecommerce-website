@@ -30,14 +30,14 @@
 					<li class="list-group-item list-group-item-inline no-decor {% if page.url == '/index.html' %}current{% endif %}"><a class="" href="{{site.baseurl}}/index.html">Home</a></li>
 					<li class="list-group-item list-group-item-inline no-decor {% if page.url contains 'market' %}current{% endif %}"><a class="" href="{{site.baseurl}}/market/">Market</a></li>
 					<li class="list-group-item list-group-item-inline no-decor {% if page.url == '/contact.html' %}current{% endif %}"><a class="" href="{{site.baseurl}}/contact.html">Contact</a></li>
-					<li class="list-group-item list-group-item-inline no-decor {% if page.url contains 'about' %}current{% endif %}"><a class="" href="{{site.baseurl}}/about.html">About</a></li>
-					<li class="list-group-item list-group-item-inline no-decor {% if page.url == '/thank-you.html' %}current{% endif %}"><a class="" href="{{site.baseurl}}/thank-you.html">Thanks</a></li>
+<!---					<li class="list-group-item list-group-item-inline no-decor {% if page.url contains 'about' %}current{% endif %}"><a class="" href="{{site.baseurl}}/about.html">About</a></li> -->
+					<li class="list-group-item list-group-item-inline no-decor {% if page.url == '/thank-you.html' %}current{% endif %}"><a class="" href="{{site.baseurl}}/cart.html">Cart</a></li>
 				</ul>
 			</nav>
 		</div>
 		
 		<div class="search unit unit-s-1 unit-m-3-8 unit-l-2-8 unit-xl-2-8">
-			<form method="get" action="{{site.baseurl}}/search/">
+			<form method="get" action="{{site.baseurl}}/search.html">
 				<fieldset>
 					<div class="search-inline">
 						<input type="search" placeholder="Lookin' for something?">
@@ -57,7 +57,7 @@
 		<div class="unit unit-s-1 unit-m-4-8 unit-l-2-8 unit-xl-2-8">
 			<ul>
 				<li class="foot-item list-group-item"><a href="{{site.baseurl}}/index.html">Home</a></li>
-				<li class="foot-item list-group-item"><a href="{{site.baseurl}}/market.html">Gem Market</a></li>
+				<li class="foot-item list-group-item"><a href="{{site.baseurl}}/market.html">Market</a></li>
 				<li class="foot-item list-group-item"><a href="{{site.baseurl}}/contact.html">Contact</a></li>
 			</ul>
 		</div>
@@ -79,7 +79,7 @@
 		</div>
 
 		<div class="unit unit-s-1 unit-m-4-8 unit-l-2-8 unit-xl-2-8">
-			<form method="get" action="{{site.baseurl}}/search/">
+			<form method="get" action="{{site.baseurl}}/search.html">
 				<fieldset>
 					<div class="search-inline">
 						<input type="search" placeholder="Lookin' for something?">

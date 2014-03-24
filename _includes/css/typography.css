@@ -212,6 +212,10 @@ table {
 	width: 100%;
 }
 
+.top-border {
+	border-top: 3px solid #ECECEC;
+}
+
 dt {
 	color: rgba(122,208,215,0.75);
 	font-weight: 400;

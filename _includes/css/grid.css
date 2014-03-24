@@ -21,6 +21,10 @@
 	margin: 0 auto;
 }
 
+.bottom {
+	padding-bottom: 1.5rem;
+}
+
 /*
 .unit-2-3 {
 	width: 66.6666%;
