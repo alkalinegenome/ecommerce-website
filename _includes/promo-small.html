@@ -1,11 +1,15 @@
-		<a href="{{site.baseurl}}{{include.link}}">
-			<div class="media">
-				<div class="media-img-stacked">
-					<img class="flex-img" src="{{site.baseurl}}/images/{{include.img}}" alt="{{include.alt}}">
+			<main role="main">
+				<div class="media">
+					<div class="media-img-stacked">
+						<a class="block" href="{{site.baseurl}}{{include.link}}">
+							<img class="flex-img" src="{{site.baseurl}}/images/{{include.img}}" alt="{{include.alt}}">
+						</a>
+					</div>
+					<div class="media-body">
+						<a class="block" href="{{site.baseurl}}{{include.link}}">
+							<h2 class="top-none organism">{{include.promotitle}}</h2>
+							<p>{{include.promodesc}}</p>
+						</a>
+					</div>	
 				</div>
-				<div class="media-body">
-					<h2 class="top-none organism">{{include.promotitle}}</h2>
-					<p>{{include.promodesc}}</p>
-				</div>	
-			</div>
-		</a>
+			</main>

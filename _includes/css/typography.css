@@ -140,6 +140,15 @@ a:active {
 	color: #00C2CF;
 }
 
+a:hover,
+a:active {
+	outline:none;
+}
+
+a:focus {
+	outline: #B28282 3px solid;
+}
+
 .copyright {
 	color: rgba(0,0,0,.50);
 	padding: 0 1.5rem;
@@ -327,4 +336,8 @@ legend {
 .thanks-bg {
 	background-color: #00C2CF;
 	padding: 5rem 1rem;
+}
+
+.block {
+	display:block;
 }

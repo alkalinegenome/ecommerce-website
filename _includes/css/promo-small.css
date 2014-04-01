@@ -9,14 +9,14 @@
 	overflow:hidden;
 	vertical-align: top;
 }
-
+/*
 .promo-small:hover,
 .promo-small:focus,
 .promo-small:active {
 	opacity: 1;
 	transition: 150ms;
 }
-
+*/
 .promo-group .unit:last-child .promo-small {
 	background-color:rgba(122,208,215,0.5);
 	overflow:hidden;

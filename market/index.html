@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-
-<h1>All Specimens</h1>
-
-<h2><a href="{{site.baseurl}}/market/geodes.html">Geodes</a></h2>
-	{% include product-list.html category='geode' %}
+<main role="main">
+	<h1>All Specimens</h1>
 	
-<h2><a href="{{site.baseurl}}/market/gems.html">Gems</a></h2>
-	{% include product-list.html category='gem' %}
-	
-<h2><a href="{{site.baseurl}}/market/fossils.html">Fossils</a></h2>
-	{% include product-list.html category='fossil' %}
+	<h2><a href="{{site.baseurl}}/market/geodes.html">Geodes</a></h2>
+		{% include product-list.html category='geode' %}
+		
+	<h2><a href="{{site.baseurl}}/market/gems.html">Gems</a></h2>
+		{% include product-list.html category='gem' %}
+		
+	<h2><a href="{{site.baseurl}}/market/fossils.html">Fossils</a></h2>
+		{% include product-list.html category='fossil' %}
+</main>

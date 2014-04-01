@@ -1,20 +1,22 @@
-	<div class="product  unit unit-s-1 unit-m-4-8 unit-l-33 unit-xl-2-8">
-		<div class="media">
-			<div class="media-img-stacked">
-				<a href="{{site.baseurl}}{{market.url}}{{include.link}}">	
-					<img class="flex-img" src="{{site.baseurl}}/images/{{market.image}}{{include.img}}" alt="">
-				</a>	
-			</div>
-			
-			<div class="media-body">
-				<h2 class="cell product-name"><a href="{{site.baseurl}}{{market.url}}{{include.link}}">{{market.name}}{{include.name}}</a></h2>
-				<p class="atom bottom-none">{{market.desc}}{{include.desc}}</p>
-				<p class="{% if market.tag == 'Sale!' %} sale-price {% else %} price {% endif %} brand-type planet bottom-none">${{market.price}}{{include.price}}</p>
-				<p class="new bottom-none brand-type">{{market.tag}}{{include.tag}}</p>
-			</div>
-			
-			<div class="buy">
-				<a class="cell {% if market.stock == 'empty' %} stock-out {% endif %}" href="{% if market.stock == 'empty' %}{% else %} {{site.baseurl}}/cart.html {% endif %}">{% if market.stock == 'empty' %} Out of Stock {% else %} Add to Cart {% endif %}</a>
+	<main role="main">
+		<div class="product  unit unit-s-1 unit-m-4-8 unit-l-33 unit-xl-2-8">
+			<div class="media">
+				<div class="media-img-stacked">
+					<a class="block" href="{{site.baseurl}}{{market.url}}{{include.link}}">	
+						<img class="flex-img" src="{{site.baseurl}}/images/{{market.image}}{{include.img}}" alt="">
+					</a>	
+				</div>
+				
+				<div class="media-body">
+					<h2 class="cell product-name"><a href="{{site.baseurl}}{{market.url}}{{include.link}}">{{market.name}}{{include.name}}</a></h2>
+					<p class="atom bottom-none">{{market.desc}}{{include.desc}}</p>
+					<p class="{% if market.tag == 'Sale!' %} sale-price {% else %} price {% endif %} brand-type planet bottom-none">${{market.price}}{{include.price}}</p>
+					<p class="new bottom-none brand-type">{{market.tag}}{{include.tag}}</p>
+				</div>
+				
+				<div class="buy">
+					<a class="cell addbuy {% if market.stock == 'empty' %} stock-out {% endif %}" href="{% if market.stock == 'empty' %}{% else %} {{site.baseurl}}/cart.html {% endif %}">{% if market.stock == 'empty' %} Out of Stock {% else %} Add to Cart {% endif %}</a>
+				</div>
 			</div>
 		</div>
-	</div>
+	</main>
