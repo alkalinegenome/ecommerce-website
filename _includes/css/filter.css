@@ -1,10 +1,8 @@
 @charset "UTF-8";
 
 .container {
-	width: 100%;
 	transition: ease-in-out 1s;
 	vertical-align: top;
-	margin-bottom: -1rem;
 	overflow: hidden;
 }
 
@@ -17,8 +15,6 @@
 	cursor:pointer;
 	color: #53C1CA;
 	text-shadow: 1px 1px 0px rgba(255,255,255,0.8);
-	line-height: 1rem;
-	font-size: 1rem;
 	text-align:center;
 	background: linear-gradient(#ECECEC 1%,#FFFFFF 100%);
 	box-shadow:
@@ -77,16 +73,12 @@
 
 .container article dt {
 	color: #0091FF;
-	line-height: 1.5rem;
-	font-size: 1rem;
 	padding: 1rem 1rem 0;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
 }
 
 .container article dd {
 	color: #6B6B6B;
-	line-height: 1rem;
-	font-size: 1rem;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
 	padding: 0 1rem;
 }
@@ -96,3 +88,9 @@
 		height 0.5s ease-in-out,
 		box-shadow 0.1s linear;
 }
+
+/* ---- Container Items ---- */
+
+.container input:checked ~ article.min-category{
+	height: 400rem;
+} 
