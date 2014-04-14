@@ -6,7 +6,8 @@
 	overflow: hidden;
 }
 
-.container label {
+
+.container-label {
 	padding: 1rem 2rem;
 	position:relative;
 	z-index:20;
@@ -23,15 +24,15 @@
 		0px 2px 2px rgba(0,0,0,0.1);
 }
 
-.container label:hover {
+.container-label:hover {
 	background: #402A1C;
 	color: #FFFFFF;
 	text-shadow: 1px 1px 0px rgba(0,0,0,1);
 	transition: .5s
 }
 
-.container input:checked + label,
-.container input:checked + label:hover {
+.container-input:checked + .container-label,
+.container-input:checked + .container-label:hover {
 	background: #9ADADF;
 	color: #FFFFFF;
 	text-shadow: 1px 1px 0px rgba(0,0,0,1);
@@ -40,8 +41,8 @@
 		0px 2px 2px rgba(0,0,0,0.1);
 }
 
-.container label:hover:after,
-.container input:checked + label:hover:after {
+.container-label:hover:after,
+.container-input:checked + .container-label:hover:after {
 	content: '';
 	position: absolute;
 	width: 15px;
@@ -51,16 +52,15 @@
 	background: transparent url(../images/more.svg) no-repeat center center;
 }
 
-.container input:checked + label:hover:after {
+.container-input:checked + .container-label:hover:after {
 	background-image: url(../images/less.svg);
 }
 
-.container input,
-.container2  input{
+.container-input {
 	display:none;
 }
 
-.container article {
+.container-article {
 	margin-top: -1px;
 	overflow:hidden;
 	height: 0px;
@@ -70,7 +70,7 @@
 		height 0.3s ease-in-out,
 		box-shadow 0.3s linear;
 }
-
+/*
 .container article dt {
 	color: #0091FF;
 	padding: 1rem 1rem 0;
@@ -87,10 +87,10 @@
 	transition: 
 		height 0.5s ease-in-out,
 		box-shadow 0.1s linear;
-}
+} */
 
 /* ---- Container Items ---- */
 
-.container input:checked ~ article.min-category{
-	height: 400rem;
-} 
+.container-input:checked ~ .container-article.min-category{
+	height: auto;
+}  
