@@ -40,6 +40,17 @@ layout: default
 									{% include filter-form.html name="purple" filtername="Purple" %}
 									{% include filter-form.html name="white" filtername="White" %}
 									{% include filter-form.html name="black" filtername="Black" %}
+
+									<tr>
+										<td>
+											<h3 class="organism quaternary">Price</h3>
+										</td>
+									</tr>
+								
+									{% include filter-form.html name="low" filtername="$1-25" %}
+									{% include filter-form.html name="med" filtername="$25-100" %}
+									{% include filter-form.html name="high" filtername="$100-250" %}
+									{% include filter-form.html name="makeitrain" filtername="$250 and up" %}
 								</tbody>
 							</table>	
 						</form>

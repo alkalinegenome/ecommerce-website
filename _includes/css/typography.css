@@ -125,13 +125,13 @@ hr {
 
 a,
 a:link {
-	color: #B28282;
+	color: #7AD0D7;
 	text-decoration: none;
 	transition: all 100ms linear;
 }
 
 a:visited {
-	color: rgba(0,194,207,0.0);
+	color: #9E9FCC;
 }
 
 a:hover,
