@@ -3,7 +3,7 @@ Design & Development : Gabe
 Location: Maple Syrup Land
 
 /*Thanks*/
-Thanks Tif! You're awesome. 
+Thanks Tif & Thomas! You're awesome. 
 
 /*Site*/
 Potatoes.
