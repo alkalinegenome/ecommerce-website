@@ -7,25 +7,51 @@ layout: default
 	<section id="category">
 		<div>
 			<input class="container-input" id="min-category" name="mineral-type" type="checkbox" /> <!-- ================================ Category ======== -->
-			<label class="container-label" for="min-category">Category</label>
+			<label class="container-label" for="min-category">Filter</label>
 			<article class="min-category container-article">
 				<div>
 					<section class="item"> <!-- ================================ Item 1 ======== -->
-						<form class="cell"  name="Color" id="Color" action="" method="">
-							<input type="checkbox" name="Red" value="1" /><label for="filter_1">Red</label>
-							<input type="checkbox" name="Orange" value="2" /><label for="filter_2">Orange</label>
-							<input type="checkbox" name="Yellow" value="3" /><label for="filter_3">Yellow</label>
-							<input type="checkbox" name="Green" value="4" /><label for="filter_4">Green</label>
-							<input type="checkbox" name="Blue" value="5" /><label for="filter_1">Blue</label>
-							<input type="checkbox" name="Purple" value="6" /><label for="filter_2">Purple</label>
-							<input type="checkbox" name="White" value="7" /><label for="filter_3">White</label>
-							<input type="checkbox" name="Black" value="8" /><label for="filter_3">Black</label>
+						<form class="cell quaternary"  name="Color" id="Color" action="" method="">
+							<table>
+								<thead>
+								  <tr>
+								  	<td>
+										<h3 class="organism quaternary">Class Type</h3>
+									</td>	
+								  </tr>
+								</thead>
+								<tbody>
+									{% include filter-form.html name="mineral" filtername="Mineral" %}
+									{% include filter-form.html name="gem" filtername="Gem" %}
+									{% include filter-form.html name="fossil" filtername="Fossil" %}
+									{% include filter-form.html name="geode" filtername="Geode" %}
+								
+									<tr>
+										<td>
+											<h3 class="organism quaternary">Color</h3>
+										</td>
+									</tr>
+								
+									{% include filter-form.html name="red" filtername="Red" %}
+									{% include filter-form.html name="orange" filtername="Orange" %}
+									{% include filter-form.html name="yellow" filtername="Yellow" %}
+									{% include filter-form.html name="green" filtername="Green" %}
+									{% include filter-form.html name="blue" filtername="Blue" %}
+									{% include filter-form.html name="purple" filtername="Purple" %}
+									{% include filter-form.html name="white" filtername="White" %}
+									{% include filter-form.html name="black" filtername="Black" %}
+								</tbody>
+							</table>	
 						</form>
+
+							<div class="buy unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
+								<a class="cell" href="#">Apply Filter</a>
+							</div>				
+
 					</section>	
 				</div>
 			</article>
 		</div>		
 	</section>
-
 
 </div>
